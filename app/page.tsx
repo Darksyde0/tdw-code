@@ -1,10 +1,9 @@
 export default function Home() {
-  const unusedVariable = "This should break ESLint";
+  const message: any = "Hello";
 
   return (
     <main>
-      <h1>My TDW Application</h1>
-      <p>Testing my GitHub Actions pipeline.</p>
+      <h1>{message}</h1>
     </main>
   );
 }
